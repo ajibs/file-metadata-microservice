@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Unicode Transformation Format; Universally agreed format containing all characters from different languages -->
+        <meta charset="utf-8">
+        
+        <!-- Resize content for device browser's width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Use the best Internet Explorer engine available -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>File Metadata Microservice</title>
+        
+    </head>
+    <body>
+        <p>Submit a file to view its filesize.</p>
+        <form action="/get-size" method="post" enctype="multipart/form-data">
+            <input type="file" name="userFile">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+
