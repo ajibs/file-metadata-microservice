@@ -15,5 +15,5 @@ Build a full stack JavaScript app that is functionally similar to this: https://
 
 ## Result
 
-You can view the live version the app on: https://ajibs-file-metadata.herokuapp.com/
+You can view the live version of the app on: https://ajibs-file-metadata.herokuapp.com/
 
